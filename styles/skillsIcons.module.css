@@ -1,0 +1,11 @@
+.iconSize {
+    width: 64px;
+    height: 64px
+}
+
+@media screen and (max-width: 640px) {
+    .iconSize {
+        width: 48px;
+        height: 48px;
+    }
+}

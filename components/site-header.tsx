@@ -71,7 +71,7 @@ export function SiteHeader() {
           </nav>
         </div>
       </div>
-      <div className="md:hidden flex container h-16 items-center space-x-4 justify-between sm:space-x-0">
+      <div className="md:hidden flex container h-16 items-center space-x-4 justify-between sm:space-x-0 overflow-hidden">
         <h1 className="inline-block font-bold">{siteConfig.name}</h1>
         <div>
           <ThemeToggle />

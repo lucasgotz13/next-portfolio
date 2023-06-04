@@ -1,0 +1,9 @@
+.aboutImage {
+    width: 500px; 
+}
+
+@media screen and (max-width: 640px) {
+    .aboutImage {
+        width: 300px;
+    }
+}
