@@ -23,9 +23,9 @@ function AboutMe() {
           variants={FadeRight}
           viewport={{ once: true }}
         >
-          I'm a Front-End developer specialized in Next.js and TailwindCSS. I've
-          also got a great knowledge in HTML, CSS, JavaScript, React and
-          Firebase, and I'm currently studying Back-End development in
+          I&apos;m a Front-End developer specialized in Next.js and TailwindCSS.
+          I&apos;ve also got a great knowledge in HTML, CSS, JavaScript, React
+          and Firebase, and I&apos;m currently studying Back-End development in
           Coderhouse. <br />
           <br />I am a highly motivated and results-oriented individual. I am
           always looking for new challenges and opportunities to learn and grow.
