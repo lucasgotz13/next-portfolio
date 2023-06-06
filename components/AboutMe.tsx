@@ -5,7 +5,7 @@ import { FadeDown, FadeLeft, FadeRight } from "./animations/FramerAnimations"
 
 function AboutMe() {
   return (
-    <div className="flex flex-col gap-10 pt-44 md:pt-96" id="about">
+    <div className="flex flex-col gap-10 pt-44 md:mt-96" id="about">
       <motion.h1
         className="inline-block font-bold text-5xl text-center"
         initial="hide"

@@ -5,6 +5,7 @@ import { buttonVariants } from "@/components/ui/button"
 import { Separator } from "@/components/ui/separator"
 import {
   Sheet,
+  SheetClose,
   SheetContent,
   SheetDescription,
   SheetFooter,
@@ -92,31 +93,31 @@ export function SiteHeader() {
                       href={"/"}
                       className="text-sm font-medium hover:text-muted-foreground/90"
                     >
-                      Home
+                      <SheetClose>Home</SheetClose>
                     </Link>
                     <Link
                       href={"#about"}
                       className="text-sm font-medium hover:text-muted-foreground/90"
                     >
-                      About Me
+                      <SheetClose>About Me</SheetClose>
                     </Link>
                     <Link
                       href={"#skills"}
                       className="text-sm font-medium hover:text-muted-foreground/90"
                     >
-                      Skills
+                      <SheetClose>Skills</SheetClose>
                     </Link>
                     <Link
                       href={"#projects"}
                       className="text-sm font-medium hover:text-muted-foreground/90"
                     >
-                      Projects
+                      <SheetClose>Projects</SheetClose>
                     </Link>
                     <Link
                       href={"#contact"}
                       className="text-sm font-medium hover:text-muted-foreground/90"
                     >
-                      Contact
+                      <SheetClose>Contact</SheetClose>
                     </Link>
                   </div>
                   <div className="flex justify-center gap-5">
@@ -131,7 +132,9 @@ export function SiteHeader() {
                           variant: "ghost",
                         })}
                       >
-                        <Icons.gitHub className="h-5 w-5" />
+                        <SheetClose>
+                          <Icons.gitHub className="h-5 w-5" />
+                        </SheetClose>
                         <span className="sr-only">GitHub</span>
                       </div>
                     </Link>
@@ -146,7 +149,9 @@ export function SiteHeader() {
                           variant: "ghost",
                         })}
                       >
-                        <Icons.linkedin className="h-5 w-5 fill-current" />
+                        <SheetClose>
+                          <Icons.linkedin className="h-5 w-5 fill-current" />
+                        </SheetClose>
                         <span className="sr-only">Linkedin</span>
                       </div>
                     </Link>
@@ -161,7 +166,9 @@ export function SiteHeader() {
                           variant: "ghost",
                         })}
                       >
-                        <Icons.mail className="h-5 w-5" />
+                        <SheetClose>
+                          <Icons.mail className="h-5 w-5" />
+                        </SheetClose>
                         <span className="sr-only">Linkedin</span>
                       </div>
                     </Link>

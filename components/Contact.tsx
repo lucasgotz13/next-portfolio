@@ -24,7 +24,7 @@ export default function Contact() {
   const { theme } = useTheme()
 
   return (
-    <div className="pt-44 md:pt-96 flex flex-col gap-10" id="contact">
+    <div className="mt-44 md:mt-96 flex flex-col gap-10" id="contact">
       <motion.h1
         className="font-bold text-5xl text-center"
         initial="hide"

@@ -42,11 +42,12 @@ export default function Skills() {
 
   return (
     <motion.div
-      className="pt-44 md:pt-96 flex flex-col items-center"
+      className="pt-44 md:mt-96 flex flex-col items-center"
       initial="hide"
       whileInView="show"
       viewport={{ once: true }}
       variants={FadeDown}
+      id="skills"
     >
       <motion.h1
         className="font-bold text-5xl text-center mb-20"
@@ -63,7 +64,6 @@ export default function Skills() {
         whileInView="show"
         viewport={{ once: true }}
         variants={FadeDown}
-        id="skills"
       >
         Languages
       </motion.p>

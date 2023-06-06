@@ -26,7 +26,7 @@ export default function Projects() {
 
   return (
     <TooltipProvider>
-      <div className="pt-44 md:pt-96 flex flex-col gap-10">
+      <div className="pt-44 md:mt-96 flex flex-col gap-10" id="projects">
         <motion.h1
           className="font-bold text-5xl text-center"
           initial="hide"
