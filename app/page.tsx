@@ -6,6 +6,7 @@ import { Typewriter } from "react-simple-typewriter"
 import { siteConfig } from "@/config/site"
 import { buttonVariants } from "@/components/ui/button"
 import AboutMe from "@/components/AboutMe"
+import Contact from "@/components/Contact"
 import Projects from "@/components/Projects"
 import Skills from "@/components/Skills"
 
@@ -64,6 +65,7 @@ export default function IndexPage() {
         <AboutMe />
         <Skills />
         <Projects />
+        <Contact />
       </section>
     </>
   )

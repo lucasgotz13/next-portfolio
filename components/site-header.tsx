@@ -7,6 +7,7 @@ import {
   Sheet,
   SheetContent,
   SheetDescription,
+  SheetFooter,
   SheetHeader,
   SheetTitle,
   SheetTrigger,
@@ -52,11 +53,7 @@ export function SiteHeader() {
                 <span className="sr-only">Linkedin</span>
               </div>
             </Link>
-            <Link
-              href={siteConfig.links.twitter}
-              target="_blank"
-              rel="noreferrer"
-            >
+            <Link href={siteConfig.links.mail} target="_blank" rel="noreferrer">
               <div
                 className={buttonVariants({
                   size: "sm",
@@ -88,10 +85,87 @@ export function SiteHeader() {
             </div>
             <SheetContent size={"lg"} position={"top"}>
               <SheetHeader>
-                <SheetTitle>Are you sure absolutely sure?</SheetTitle>
-                <SheetDescription>
-                  This action cannot be undone. This will permanently delete
-                  your account and remove your data from our servers.
+                <SheetTitle className="mb-5">Lucas Gotz</SheetTitle>
+                <SheetDescription className="flex flex-col gap-5">
+                  <div className="flex flex-col gap-5">
+                    <Link
+                      href={"/"}
+                      className="text-sm font-medium hover:text-muted-foreground/90"
+                    >
+                      Home
+                    </Link>
+                    <Link
+                      href={"#about"}
+                      className="text-sm font-medium hover:text-muted-foreground/90"
+                    >
+                      About Me
+                    </Link>
+                    <Link
+                      href={"#skills"}
+                      className="text-sm font-medium hover:text-muted-foreground/90"
+                    >
+                      Skills
+                    </Link>
+                    <Link
+                      href={"#projects"}
+                      className="text-sm font-medium hover:text-muted-foreground/90"
+                    >
+                      Projects
+                    </Link>
+                    <Link
+                      href={"#contact"}
+                      className="text-sm font-medium hover:text-muted-foreground/90"
+                    >
+                      Contact
+                    </Link>
+                  </div>
+                  <div className="flex justify-center gap-5">
+                    <Link
+                      href={siteConfig.links.github}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <div
+                        className={buttonVariants({
+                          size: "sm",
+                          variant: "ghost",
+                        })}
+                      >
+                        <Icons.gitHub className="h-5 w-5" />
+                        <span className="sr-only">GitHub</span>
+                      </div>
+                    </Link>
+                    <Link
+                      href={siteConfig.links.twitter}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <div
+                        className={buttonVariants({
+                          size: "sm",
+                          variant: "ghost",
+                        })}
+                      >
+                        <Icons.linkedin className="h-5 w-5 fill-current" />
+                        <span className="sr-only">Linkedin</span>
+                      </div>
+                    </Link>
+                    <Link
+                      href={siteConfig.links.mail}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <div
+                        className={buttonVariants({
+                          size: "sm",
+                          variant: "ghost",
+                        })}
+                      >
+                        <Icons.mail className="h-5 w-5" />
+                        <span className="sr-only">Linkedin</span>
+                      </div>
+                    </Link>
+                  </div>
                 </SheetDescription>
               </SheetHeader>
             </SheetContent>
