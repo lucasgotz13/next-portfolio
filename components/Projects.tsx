@@ -264,7 +264,7 @@ export default function Projects() {
                 <div className="flex justify-center items-center gap-2">
                   <Tooltip>
                     <Link
-                      href={"https://lucasgotz-portfolio.vercel.app/"}
+                      href={"https://lucasgotz-portfolio.netlify.app/"}
                       target="_blank"
                     >
                       <TooltipTrigger>
@@ -280,7 +280,7 @@ export default function Projects() {
                   </Tooltip>
                   <Tooltip>
                     <Link
-                      href={"https://github.com/lucasgotz13/next-portfolio"}
+                      href={"https://github.com/lucasgotz13/portfolio"}
                       target="_blank"
                     >
                       <TooltipTrigger>
@@ -326,7 +326,7 @@ export default function Projects() {
                 <div className="flex justify-center items-center gap-2">
                   <Tooltip>
                     <Link
-                      href={"https://lucasgotz-portfolio.vercel.app/"}
+                      href={"https://holiday-calculator.vercel.app/"}
                       target="_blank"
                     >
                       <TooltipTrigger>
@@ -342,7 +342,7 @@ export default function Projects() {
                   </Tooltip>
                   <Tooltip>
                     <Link
-                      href={"https://github.com/lucasgotz13/next-portfolio"}
+                      href={"https://github.com/lucasgotz13/Holiday-calculator"}
                       target="_blank"
                     >
                       <TooltipTrigger>
