@@ -32,7 +32,7 @@ export default function Contact() {
         variants={FadeDown}
         viewport={{ once: true }}
       >
-        Let's get in touch!
+        Let&apos;s get in touch!
       </motion.h1>
       <motion.div
         className={`border-2 rounded-md ${
