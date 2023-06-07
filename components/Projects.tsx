@@ -59,7 +59,7 @@ export default function Projects() {
             src="../images/CoolGamers2.png"
             className={`border-4 ${
               theme === "light" ? "border-gray-400" : ""
-            } rounded-md mx-auto w-[300px] h-[200px] md:w-[400px] md:h-[300px] md:mx-0`}
+            } rounded-md mx-auto md:mx-0 object-contain`}
             alt=""
           />
           <div className="mx-auto md:mx-0 md:ml-auto flex flex-col gap-5 md:gap-2 justify-center items-end">
@@ -164,7 +164,7 @@ export default function Projects() {
             src="../images/E-Commerce.png"
             className={`border-4 ${
               theme === "light" ? "border-gray-400" : ""
-            } rounded-md mx-auto w-[300px] h-[200px] md:w-[400px] md:h-[300px] md:mx-0`}
+            } rounded-md mx-auto  object-contain md:mx-0`}
             alt=""
           />
         </motion.div>
@@ -182,7 +182,7 @@ export default function Projects() {
             src="../images/newportfolio.png"
             className={`border-4 ${
               theme === "light" ? "border-gray-400" : ""
-            } rounded-md mx-auto w-[300px] h-[200px] md:w-[400px] md:h-[300px] md:mx-0`}
+            } rounded-md mx-auto  md:mx-0 object-contain`}
             alt=""
           />
           <div className="mx-auto md:mx-0 md:ml-auto flex flex-col gap-5 md:gap-2 justify-center items-center md:items-end">
@@ -253,7 +253,7 @@ export default function Projects() {
                 <img
                   src="../images/portfolio-thumbnail.png"
                   alt="Old portfolio"
-                  className="w-[250px] h-[150px] md:w-[400px] md:h-[300px] rounded-md"
+                  className="w-[250px] h-[150px] md:w-[400px] md:h-[300px] object-contain rounded-md"
                 />
               </CardHeader>
               <CardContent className="flex flex-col justify-center gap-2">
@@ -313,7 +313,7 @@ export default function Projects() {
                 <img
                   src="../images/holiday-calculator.jpeg"
                   alt="Old portfolio"
-                  className="w-[250px] h-[150px] md:w-[400px] md:h-[300px] rounded-md"
+                  className="w-[250px] h-[150px] md:w-[400px] md:h-[300px] object-contain rounded-md"
                 />
               </CardHeader>
               <CardContent className="flex flex-col justify-center gap-2">
