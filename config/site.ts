@@ -3,7 +3,7 @@ export type SiteConfig = typeof siteConfig
 export const siteConfig = {
   name: "Lucas Gotz",
   description:
-    "17y/o fullstack developer currently living in Buenos Aires, Argentina.",
+    "18y/o fullstack developer currently living in Buenos Aires, Argentina.",
   mainNav: [
     {
       title: "Home",
@@ -11,20 +11,20 @@ export const siteConfig = {
     },
     {
       title: "About Me",
-      href: "#about"
+      href: "#about",
     },
     {
       title: "Skills",
-      href: "#skills"
+      href: "#skills",
     },
     {
       title: "Projects",
-      href: "#projects"
+      href: "#projects",
     },
     {
       title: "Contact",
-      href: "#contact"
-    }
+      href: "#contact",
+    },
   ],
   links: {
     twitter: "https://www.linkedin.com/in/lucas-gotz-baliner",
