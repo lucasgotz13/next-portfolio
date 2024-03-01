@@ -34,7 +34,7 @@ export default function IndexPage() {
               />
             </span>
             <h2 className="max-w-xl text-3xl text-center md:text-start leading-tight tracking-tighter md:text-4xl">
-              18y/o Front-End developer currently living in Buenos Aires,
+              18y/o Full Stack developer currently living in Buenos Aires,
               Argentina.
             </h2>
             <div className="flex justify-start gap-4">

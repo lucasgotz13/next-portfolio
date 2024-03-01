@@ -16,6 +16,7 @@ import {
 import {
   SiChakraui,
   SiFirebase,
+  SiMongodb,
   SiNextdotjs,
   SiTailwindcss,
 } from "react-icons/si"
@@ -240,6 +241,17 @@ export default function Skills() {
             </TooltipTrigger>
             <TooltipContent>
               <p>Firebase Firestore</p>
+            </TooltipContent>
+          </Tooltip>
+          <Tooltip>
+            <TooltipTrigger className="cursor-default">
+              <SiMongodb
+                className={styles.iconSize}
+                style={{ color: "#4db33d" }}
+              />
+            </TooltipTrigger>
+            <TooltipContent>
+              <p>MongoDB</p>
             </TooltipContent>
           </Tooltip>
         </TooltipProvider>
