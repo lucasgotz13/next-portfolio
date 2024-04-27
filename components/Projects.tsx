@@ -26,7 +26,10 @@ export default function Projects() {
 
   return (
     <TooltipProvider>
-      <div className="pt-44 md:mt-96 flex flex-col gap-10" id="projects">
+      <div
+        className="scroll-smooth pt-44 md:mt-96 flex flex-col gap-10"
+        id="projects"
+      >
         <motion.h1
           className="font-bold text-5xl text-center"
           initial="hide"
@@ -56,7 +59,7 @@ export default function Projects() {
           viewport={{ once: true }}
         >
           <img
-            src="../images/CoolGamers2.png"
+            src="../images/screenshot_cool-gamers.png"
             className={`border-4 ${
               theme === "light" ? "border-gray-400" : ""
             } rounded-md mx-auto md:mx-0 object-contain`}
@@ -120,21 +123,24 @@ export default function Projects() {
         >
           <div className="flex flex-col gap-5 md:gap-2 justify-center md:items-start">
             <h1 className="font-bold text-2xl text-center md:text-left">
-              Gotz-shop
+              HR Nexo
             </h1>
             <p className="max-w-screen-sm md:max-w-sm text-center md:text-left">
-              An E-Commerce I made for my final project in the JavaScript
-              Coderhouse course
+              MVP made for an non-remunerated internship in No-Country which
+              consists in a platform for HR. I was in charge of the front-end
+              development
             </p>
             <div className="flex mx-auto md:mx-0 md:mr-auto gap-3">
-              <Badge variant="html">HTML</Badge>
-              <Badge variant="css">CSS</Badge>
-              <Badge variant="js">JavaScript</Badge>
+              <Badge variant="react">React.js</Badge>
+              <Badge variant="tailwindcss">TailwindCSS</Badge>
+              <Badge variant="django">Django</Badge>
             </div>
             <div className="flex mx-auto md:mx-0 md:mr-auto gap-5">
               <Tooltip>
                 <Link
-                  href={"https://lucasgotz13.github.io/E-Commerce-CH/"}
+                  href={
+                    "https://gestion-de-recursos-humanos-en-la-nube-facundodevs-projects.vercel.app/"
+                  }
                   target="_blank"
                 >
                   <TooltipTrigger>
@@ -147,7 +153,7 @@ export default function Projects() {
               </Tooltip>
               <Tooltip>
                 <Link
-                  href={"https://github.com/lucasgotz13/E-Commerce-CH"}
+                  href={"https://github.com/No-Country/c17-67-t-python"}
                   target="_blank"
                 >
                   <TooltipTrigger>
@@ -161,7 +167,7 @@ export default function Projects() {
             </div>
           </div>
           <img
-            src="../images/E-Commerce.png"
+            src="../images/screenshot_hrnexo.png"
             className={`border-4 ${
               theme === "light" ? "border-gray-400" : ""
             } rounded-md mx-auto  object-contain md:mx-0`}
@@ -179,7 +185,7 @@ export default function Projects() {
           viewport={{ once: true }}
         >
           <img
-            src="../images/newportfolio.png"
+            src="../images/screenshot_new-portfolio.png"
             className={`border-4 ${
               theme === "light" ? "border-gray-400" : ""
             } rounded-md mx-auto  md:mx-0 object-contain`}

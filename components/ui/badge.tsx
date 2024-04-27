@@ -22,6 +22,7 @@ const badgeVariants = cva(
         html: "bg-[#e34c26] border-transparent text-black",
         css: "bg-[#264de4] border-transparent text-black",
         js: "bg-[#f0db4f] border-transparent text-black",
+        django: "bg-[#092e20] border-transparent text-white",
         nextjs: "bg-primary border-transparent text-primary-foreground",
       },
     },
