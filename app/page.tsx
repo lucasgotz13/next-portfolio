@@ -39,7 +39,7 @@ export default function IndexPage() {
             </h2>
             <div className="flex justify-start gap-4">
               <Link
-                href="https://linkedin.com/in/lucas-gotz-baliner"
+                href="https://flowcv.com/resume/gq2lqfhc18"
                 target="_blank"
                 rel="noreferrer"
                 className={buttonVariants()}
