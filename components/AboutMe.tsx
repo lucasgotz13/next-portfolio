@@ -25,8 +25,7 @@ function AboutMe() {
         >
           I&apos;m a Full Stack developer specialized in Next.js, Node.js and
           TailwindCSS. I&apos;ve also got a great knowledge in HTML, CSS,
-          JavaScript, React, Firebase and MongoDB. I&apos;m currently studying
-          Back-End development in Coderhouse. <br />
+          JavaScript, React, Firebase and MongoDB. I&apos;m currently learning Go for backend development <br />
           <br />I am a highly motivated and results-oriented individual. I am
           always looking for new challenges and opportunities to learn and grow.
           I am confident that I can make a significant contribution to your

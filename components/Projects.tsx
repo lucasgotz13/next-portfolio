@@ -48,73 +48,72 @@ export default function Projects() {
         >
           Some of my best projects
         </motion.p>
+        {/* <motion.div */}
+        {/*   className={`pr-10 pl-5 py-5 flex flex-col-reverse md:grid rounded-md md:grid-cols-[35%_65%] border-4 ${ */}
+        {/*     theme === "light" ? "border-gray-400" : "" */}
+        {/*   } `} */}
+        {/*   initial="hide" */}
+        {/*   whileInView="show" */}
+        {/*   whileHover={{ scale: 1.1 }} */}
+        {/*   variants={FadeRight} */}
+        {/*   viewport={{ once: true }} */}
+        {/* > */}
+        {/*   <img */}
+        {/*     src="../images/screenshot_hrnexo.png" */}
+        {/*     className={`border-4 ${ */}
+        {/*       theme === "light" ? "border-gray-400" : "" */}
+        {/*     } rounded-md mx-auto md:mx-0 object-contain`} */}
+        {/*     alt="" */}
+        {/*   /> */}
+        {/*   <div className="mx-auto md:mx-0 md:ml-auto flex flex-col gap-5 md:gap-2 justify-center items-end"> */}
+        {/*     <h1 className="font-bold text-2xl mx-auto md:mx-0 md:ml-auto md:text-right"> */}
+        {/*       HR Nexo */}
+        {/*     </h1> */}
+        {/*     <p className="max-w-sm ml-auto text-center md:text-right"> */}
+        {/*       MVP made for an non-remunerated internship in No-Country which */}
+        {/*       consists in a platform for HR. I was in charge of the front-end */}
+        {/*       development */}
+        {/*     </p> */}
+        {/*     <div className="flex flex-wrap justify-center md:justify-right md:mx-0 md:ml-auto gap-3"> */}
+        {/*       <Badge variant="react">React.js</Badge> */}
+        {/*       <Badge variant="tailwindcss">TailwindCSS</Badge> */}
+        {/*       <Badge variant="django">Django</Badge> */}
+        {/*     </div> */}
+        {/*     <div className="flex mx-auto md:mx-0 md:ml-auto gap-5"> */}
+        {/*       <Tooltip> */}
+        {/*         <Link */}
+        {/*           href={ */}
+        {/*             "https://gestion-de-recursos-humanos-en-la-nube-facundodevs-projects.vercel.app/" */}
+        {/*           } */}
+        {/*           target="_blank" */}
+        {/*         > */}
+        {/*           <TooltipTrigger> */}
+        {/*             <FaCode size={24} className="hover:text-foreground/90" /> */}
+        {/*           </TooltipTrigger> */}
+        {/*           <TooltipContent> */}
+        {/*             <p>Demo</p> */}
+        {/*           </TooltipContent> */}
+        {/*         </Link> */}
+        {/*       </Tooltip> */}
+        {/*       <Tooltip> */}
+        {/*         <Link */}
+        {/*           href={"https://github.com/No-Country/c17-67-t-python"} */}
+        {/*           target="_blank" */}
+        {/*         > */}
+        {/*           <TooltipTrigger> */}
+        {/*             <FaGithub size={24} className="hover:text-foreground/90" /> */}
+        {/*           </TooltipTrigger> */}
+        {/*           <TooltipContent> */}
+        {/*             <p>Repository</p> */}
+        {/*           </TooltipContent> */}
+        {/*         </Link> */}
+        {/*       </Tooltip> */}
+        {/*     </div> */}
+        {/*   </div> */}
+        {/* </motion.div> */}
         <motion.div
-          className={`pr-10 pl-5 py-5 flex flex-col-reverse md:grid rounded-md md:grid-cols-[35%_65%] border-4 ${
-            theme === "light" ? "border-gray-400" : ""
-          } `}
-          initial="hide"
-          whileInView="show"
-          whileHover={{ scale: 1.1 }}
-          variants={FadeRight}
-          viewport={{ once: true }}
-        >
-          <img
-            src="../images/screenshot_hrnexo.png"
-            className={`border-4 ${
-              theme === "light" ? "border-gray-400" : ""
-            } rounded-md mx-auto md:mx-0 object-contain`}
-            alt=""
-          />
-          <div className="mx-auto md:mx-0 md:ml-auto flex flex-col gap-5 md:gap-2 justify-center items-end">
-            <h1 className="font-bold text-2xl mx-auto md:mx-0 md:ml-auto md:text-right">
-              HR Nexo
-            </h1>
-            <p className="max-w-sm ml-auto text-center md:text-right">
-              MVP made for an non-remunerated internship in No-Country which
-              consists in a platform for HR. I was in charge of the front-end
-              development
-            </p>
-            <div className="flex flex-wrap justify-center md:justify-right md:mx-0 md:ml-auto gap-3">
-              <Badge variant="react">React.js</Badge>
-              <Badge variant="tailwindcss">TailwindCSS</Badge>
-              <Badge variant="django">Django</Badge>
-            </div>
-            <div className="flex mx-auto md:mx-0 md:ml-auto gap-5">
-              <Tooltip>
-                <Link
-                  href={
-                    "https://gestion-de-recursos-humanos-en-la-nube-facundodevs-projects.vercel.app/"
-                  }
-                  target="_blank"
-                >
-                  <TooltipTrigger>
-                    <FaCode size={24} className="hover:text-foreground/90" />
-                  </TooltipTrigger>
-                  <TooltipContent>
-                    <p>Demo</p>
-                  </TooltipContent>
-                </Link>
-              </Tooltip>
-              <Tooltip>
-                <Link
-                  href={"https://github.com/No-Country/c17-67-t-python"}
-                  target="_blank"
-                >
-                  <TooltipTrigger>
-                    <FaGithub size={24} className="hover:text-foreground/90" />
-                  </TooltipTrigger>
-                  <TooltipContent>
-                    <p>Repository</p>
-                  </TooltipContent>
-                </Link>
-              </Tooltip>
-            </div>
-          </div>
-        </motion.div>
-        <motion.div
-          className={`pl-10 pr-5 py-5 flex flex-col md:grid rounded-md md:grid-cols-[65%_35%] border-4 ${
-            theme === "light" ? "border-gray-400" : ""
-          }`}
+          className={`pl-10 pr-5 py-5 flex flex-col md:grid rounded-md md:grid-cols-[65%_35%] border-4 ${theme === "light" ? "border-gray-400" : ""
+            }`}
           initial="hide"
           whileInView="show"
           variants={FadeLeft}
@@ -166,16 +165,14 @@ export default function Projects() {
           </div>
           <img
             src="../images/screenshot_calendly-clone.png"
-            className={`border-4 ${
-              theme === "light" ? "border-gray-400" : ""
-            } rounded-md mx-auto  object-contain md:mx-0`}
+            className={`border-4 ${theme === "light" ? "border-gray-400" : ""
+              } rounded-md mx-auto  object-contain md:mx-0`}
             alt=""
           />
         </motion.div>
         <motion.div
-          className={`pr-10 pl-5 py-5 flex flex-col-reverse md:grid rounded-md md:grid-cols-[35%_65%] border-4 ${
-            theme === "light" ? "border-gray-400" : ""
-          } `}
+          className={`pr-10 pl-5 py-5 flex flex-col-reverse md:grid rounded-md md:grid-cols-[35%_65%] border-4 ${theme === "light" ? "border-gray-400" : ""
+            } `}
           initial="hide"
           whileInView="show"
           whileHover={{ scale: 1.1 }}
@@ -184,9 +181,8 @@ export default function Projects() {
         >
           <img
             src="../images/screenshot_cool-gamers.png"
-            className={`border-4 ${
-              theme === "light" ? "border-gray-400" : ""
-            } rounded-md mx-auto md:mx-0 object-contain`}
+            className={`border-4 ${theme === "light" ? "border-gray-400" : ""
+              } rounded-md mx-auto md:mx-0 object-contain`}
             alt=""
           />
           <div className="mx-auto md:mx-0 md:ml-auto flex flex-col gap-5 md:gap-2 justify-center items-end">
@@ -236,9 +232,8 @@ export default function Projects() {
           </div>
         </motion.div>
         <motion.div
-          className={`pl-10 pr-5 py-5 flex flex-col md:grid rounded-md md:grid-cols-[65%_35%] border-4 ${
-            theme === "light" ? "border-gray-400" : ""
-          }`}
+          className={`pl-10 pr-5 py-5 flex flex-col md:grid rounded-md md:grid-cols-[65%_35%] border-4 ${theme === "light" ? "border-gray-400" : ""
+            }`}
           initial="hide"
           whileInView="show"
           variants={FadeLeft}
@@ -287,9 +282,8 @@ export default function Projects() {
           </div>
           <img
             src="../images/screenshot_new-portfolio.png"
-            className={`border-4 ${
-              theme === "light" ? "border-gray-400" : ""
-            } rounded-md mx-auto  object-contain md:mx-0`}
+            className={`border-4 ${theme === "light" ? "border-gray-400" : ""
+              } rounded-md mx-auto  object-contain md:mx-0`}
             alt=""
           />
         </motion.div>
@@ -311,9 +305,8 @@ export default function Projects() {
         >
           <motion.div
             whileHover={{ scale: 1.1 }}
-            className={`border-2 rounded-md ${
-              theme === "light" ? "border-gray-400" : ""
-            }`}
+            className={`border-2 rounded-md ${theme === "light" ? "border-gray-400" : ""
+              }`}
           >
             <Card>
               <CardHeader>
@@ -371,9 +364,8 @@ export default function Projects() {
           </motion.div>
           <motion.div
             whileHover={{ scale: 1.1 }}
-            className={`border-2 rounded-md ${
-              theme === "light" ? "border-gray-400" : ""
-            }`}
+            className={`border-2 rounded-md ${theme === "light" ? "border-gray-400" : ""
+              }`}
           >
             <Card>
               <CardHeader className="flex justify-center items-center">

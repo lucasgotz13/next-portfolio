@@ -2,13 +2,11 @@ import Link from "next/link"
 
 import { siteConfig } from "@/config/site"
 import { buttonVariants } from "@/components/ui/button"
-import { Separator } from "@/components/ui/separator"
 import {
   Sheet,
   SheetClose,
   SheetContent,
   SheetDescription,
-  SheetFooter,
   SheetHeader,
   SheetTitle,
   SheetTrigger,
@@ -51,17 +49,6 @@ export function SiteHeader() {
                 })}
               >
                 <Icons.linkedin className="h-5 w-5 fill-current" />
-                <span className="sr-only">Linkedin</span>
-              </div>
-            </Link>
-            <Link href={siteConfig.links.mail} target="_blank" rel="noreferrer">
-              <div
-                className={buttonVariants({
-                  size: "sm",
-                  variant: "ghost",
-                })}
-              >
-                <Icons.mail className="h-5 w-5" />
                 <span className="sr-only">Linkedin</span>
               </div>
             </Link>
