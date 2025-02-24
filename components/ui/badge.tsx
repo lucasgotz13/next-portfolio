@@ -26,6 +26,7 @@ const badgeVariants = cva(
         nextjs: "bg-primary border-transparent text-primary-foreground",
         zustand: "bg-[#0d141e] border-transparent text-white",
         mongodb: "bg-[#00684a] border-transparent text-white",
+        postgresql: "bg-[#336791] border-transparent text-black",
       },
     },
     defaultVariants: {

@@ -18,6 +18,7 @@ import {
   SiFirebase,
   SiMongodb,
   SiNextdotjs,
+  SiPostgresql,
   SiTailwindcss,
 } from "react-icons/si"
 
@@ -252,6 +253,17 @@ export default function Skills() {
             </TooltipTrigger>
             <TooltipContent>
               <p>MongoDB</p>
+            </TooltipContent>
+          </Tooltip>
+          <Tooltip>
+            <TooltipTrigger className="cursor-default">
+              <SiPostgresql
+                className={styles.iconSize}
+                style={{ color: "#336791" }}
+              />
+            </TooltipTrigger>
+            <TooltipContent>
+              <p>PostgreSQL</p>
             </TooltipContent>
           </Tooltip>
         </TooltipProvider>
